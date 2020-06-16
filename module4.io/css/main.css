@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+h3 {
+  font-size: 30px;
+  color: #555252;
+  float: left;
+}
+
+h3::before {
+  content: "M";
+  color: #1abc9c;
+}
+
+h1 {
+  color: #515151;
+  font-size: 48px;
+  text-align: center;
+}
+
+h1::after {
+  content: "";
+  background-color: #1abc9c;
+  display: block;
+  width: 168px;
+  height: 6px;
+  margin: 35px auto;
+}
+
+
+
+  li {
+    display: inline-block;
+    text-align: center;
+    line-height: ;
+    margin: 0 auto;
+   
+    
+  }
+
+  li:hover {
+      color: teal;
+  }
+
+
+
+  .header, rapper {
+    width: 900px;
+    margin: 40px auto;
+    vertical-align: middle;
+    background-color: teal;
+   }

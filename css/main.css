@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header {
+  width: 1110px;
+  display: block;
+  margin: 40px auto;
+  height: 50px;
+  margin-bottom: 75px;
+}
+
+.logo-holder {
+  float: left;
+  width: 80px;
+  height: 20px;
+}
+
+.logo-text {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  width: 50px;
+  text-transform: uppercase;
+}
+
+.logo-text::first-letter {
+  content: "";
+  font-family: 'Roboto', cursive;
+  color: #FF4081;
+  font-size: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  color: #1abc9c;
+  display: block;
+  width: 10px;
+}
+
+.site-navigation {
+  font-size: 13px;
+  /* line-height: 11px; */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.site-navigation li {
+  margin-right: 40px;
+  float: left;
+  list-style-type: none;
+}
+
+.site-navigation a:focus,
+.site-navigation a:hover {
+  color: teal;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+
+.site-navigation a {
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  /* margin-top: 15px; */
+}
+
+.page-nav {
+  float: right;
+}
+
+.featured-products {
+  margin-bottom: 70px;
+}
+
+.featured-name,
+.latest-name {
+  color: #515151;
+  font-size: 48px;
+  text-align: center;
+}
+
+.featured-name {
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.latest-name {
+  text-transform: uppercase;
+}
+
+.featured-name::after,
+.latest-name::after {
+  content: "";
+  background-color: #1abc9c;
+  display: block;
+  width: 168px;
+  height: 6px;
+  margin: 35px auto;
+}
+
+.wrapper {
+  width: 1120px;
+  height: 1800px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.card {
+  display: block;
+  float: left;
+  width: 255px;
+  height: 320px;
+  margin: 0;
+  padding: 0;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  background-color: #e9f0fd;
+}
+
+.card:hover .product-description {
+  background-color: #1abc9c;
+}
+
+.products:hover {
+  color: teal;
+}
+
+.card:nth-child(4n + 9) {
+  margin-right: 0;
+}
+
+
+
+.product-description {
+  /* display: block; */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 0 15px;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: black;
+  text-transform: uppercase;
+  width: 200px;
+  float: left;
+}
+
+.price {
+  /* display: inline-block; */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: #8c8c8c;
+  width: 55px;
+  float: left;
+}
+
+.news-list {
+  float: left;
+  list-style: none;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.news-list:last-child {
+  margin-right: 0;
+}
+
+.news-desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  color: #555252;
+}
+
+.news-desc::after {
+  content: "";
+  background-color: #1abc9c;
+  display: inline-block;
+  width: 138px;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #555252;
+}
+
+.news-button {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px;
+  text-align: center;
+  width: 160px;
+  background-color: #4ec6ab;
+  border: none;
+  margin-top: 15px;
+}
+
+.latest-name {
+  margin-bottom: 80px;
+}
